@@ -1,0 +1,28 @@
+{
+  "name": "funcforge",
+  "displayName": "FuncForge — C++ Function Template Generator",
+  "description": "Инструмент для создания, настройки, проверки и генерации шаблонов функций C++",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other",
+    "Snippets"
+  ],
+  "activationEvents": [
+    "onCommand:funcforge.openManager"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "funcforge.openManager",
+        "title": "FuncForge: Открыть менеджер шаблонов C++"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "node --test test/logic.test.js"
+  }
+}
