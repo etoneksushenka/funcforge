@@ -3,10 +3,11 @@
   "configurations": [
     {
       "name": "Run FuncForge Extension",
-      "request": "launch",
       "type": "extensionHost",
+      "request": "launch",
       "args": [
-        "--extensionDevelopmentPath=${workspaceFolder}"
+        "--extensionDevelopmentPath=${workspaceFolder}",
+        "--disable-extensions"
       ]
     }
   ]
